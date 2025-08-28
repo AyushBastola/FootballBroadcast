@@ -43,8 +43,6 @@ public class Main {
             System.out.println("Give us a noun.");
             String noun4 = input.nextLine();
 
-            System.out.println("Give us a noun.");
-
             System.out.println("Give us a verb ending in ing .");
             String verb = input.nextLine();
 
