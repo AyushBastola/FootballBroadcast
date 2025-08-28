@@ -18,7 +18,7 @@ public class Main {
             System.out.println("Give us a name of a body part.");
             String bodypart = input.nextLine();
 
-            System.out.println("Give us a name of a number.");
+            System.out.println("Give us a number.");
             int number = input.nextInt();
             input.nextLine();
 
@@ -46,10 +46,10 @@ public class Main {
             System.out.println("Give us a verb ending in ing .");
             String verb = input.nextLine();
 
-            System.out.println("good afternoon ladies and gentlemen. this is your favorite sportscaster \nbringing you the big football game between  the columbia university \n" + animalplural  +
-                    " and the west point " + pluralnoun + " the center \nhas just snapped the " + noun1 + " back to the columbia star halfback,\n " + celebrity + " who is running  around his/her own left " + noun2 + "\n tackled hard around the " + bodypart  +
+            System.out.println("Good afternoon ladies and gentlemen. This is your favorite sportscaster \nbringing you the big football game between the Columbia University \n" + animalplural  +
+                    " and the West Point " + pluralnoun + ". The center \nhas just snapped the " + noun1 + " back to the Columbia star halfback,\n " + celebrity + " who is running  around his/her own left " + noun2 + "\n tackled hard around the " + bodypart  +
 
-                    " now its west\n point ball and " + number + " to go. they're coming out  of the huddle.\n The ball is snapped back to " + celebrity2 + ", who fades back and throws\n a long, " + adjective + " pass that is caught by " + celebrity3 + ", who\n is West Point's " + adjective2 + " quarterback. He/She's in the clear, and\n he/she races over the " + noun3 + " for a touchdown. No, no, wait! The\n referee is calling the play back to the thirty-five-" + noun4 + " line. He's\n going to penalize West Point for " + verb + ".");
+                    " Now it's West\n Point's ball and " + number + " to go. They're coming out of the huddle.\n The ball is snapped back to " + celebrity2 + ", who fades back and throws\n a long, " + adjective + " pass that is caught by " + celebrity3 + ", who\n is West Point's " + adjective2 + " quarterback. He/She's in the clear, and\n he/she races over the " + noun3 + " for a touchdown. No, no, wait! The\n referee is calling the play back to the thirty-five-" + noun4 + " line. He's\n going to penalize West Point for " + verb + ".");
         }
 
     }
